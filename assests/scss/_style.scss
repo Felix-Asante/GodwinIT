@@ -245,17 +245,14 @@
 			}
 		}
 		.service-1 {
-			background: url("/assests/images/webdev.jpg") no-repeat center
-				center/cover;
+			background: url("../images/webdev.jpg") no-repeat center center/cover;
 		}
 
 		.service-2 {
-			background: url("/assests/images/bespoke.jpg") no-repeat center
-				center/cover;
+			background: url("../images/bespoke.jpg") no-repeat center center/cover;
 		}
 		.service-3 {
-			background: url("/assests/images/techstack.jpeg") no-repeat center
-				center/cover;
+			background: url("../images/techstack.jpeg") no-repeat center center/cover;
 		}
 
 		.service__item-description {
@@ -362,7 +359,7 @@
 }
 // MAIN FOOTER
 .main-footer {
-	background: url("/assests/images/bespoke.jpg") no-repeat center center/cover;
+	background: url("../images/bespoke.jpg") no-repeat center center/cover;
 	background-attachment: fixed;
 	position: relative;
 	z-index: 10;
