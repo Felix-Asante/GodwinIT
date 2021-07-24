@@ -133,45 +133,45 @@ textarea {
 
 /* line 1, ../scss/_tech.scss */
 .tech-showcase {
-  background: url("/assests/images/inner-banner.jpeg") no-repeat center center/cover;
+  background: url("../images/inner-banner.jpeg") no-repeat center center/cover;
 }
-/* line 5, ../scss/_tech.scss */
+/* line 4, ../scss/_tech.scss */
 .tech-showcase h1 {
   color: #0083cb;
 }
 
-/* line 11, ../scss/_tech.scss */
+/* line 10, ../scss/_tech.scss */
 .stack {
   border-bottom: 2px solid #3333;
   gap: 4rem !important;
 }
 @media screen and (max-width: 768px) {
-  /* line 11, ../scss/_tech.scss */
+  /* line 10, ../scss/_tech.scss */
   .stack {
     flex-direction: column !important;
     gap: 1rem !important;
     padding-bottom: 1rem;
   }
 }
-/* line 19, ../scss/_tech.scss */
+/* line 18, ../scss/_tech.scss */
 .stack:last-child {
   border: none;
 }
-/* line 22, ../scss/_tech.scss */
+/* line 21, ../scss/_tech.scss */
 .stack .btn {
   padding: 12px;
   font-weight: bold;
   border-radius: 8px;
 }
-/* line 27, ../scss/_tech.scss */
+/* line 26, ../scss/_tech.scss */
 .stack .stack-text {
   flex: 55%;
 }
-/* line 29, ../scss/_tech.scss */
+/* line 28, ../scss/_tech.scss */
 .stack .stack-text p {
   font-size: 1.2rem;
 }
-/* line 33, ../scss/_tech.scss */
+/* line 32, ../scss/_tech.scss */
 .stack .stack-content {
   flex: 45%;
   flex-wrap: wrap !important;
