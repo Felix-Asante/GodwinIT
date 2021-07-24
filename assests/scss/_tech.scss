@@ -6,11 +6,16 @@
 		color: $primary-color;
 	}
 }
+
 // stacks
 .stack {
 	border-bottom: 2px solid #3333;
 	gap: 4rem !important;
-
+	@media screen and (max-width: 768px) {
+		flex-direction: column !important;
+		gap: 1rem !important;
+		padding-bottom: 1rem;
+	}
 	&:last-child {
 		border: none;
 	}

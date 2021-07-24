@@ -140,30 +140,38 @@ textarea {
   color: #0083cb;
 }
 
-/* line 10, ../scss/_tech.scss */
+/* line 11, ../scss/_tech.scss */
 .stack {
   border-bottom: 2px solid #3333;
   gap: 4rem !important;
 }
-/* line 14, ../scss/_tech.scss */
+@media screen and (max-width: 768px) {
+  /* line 11, ../scss/_tech.scss */
+  .stack {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    padding-bottom: 1rem;
+  }
+}
+/* line 19, ../scss/_tech.scss */
 .stack:last-child {
   border: none;
 }
-/* line 17, ../scss/_tech.scss */
+/* line 22, ../scss/_tech.scss */
 .stack .btn {
   padding: 12px;
   font-weight: bold;
   border-radius: 8px;
 }
-/* line 22, ../scss/_tech.scss */
+/* line 27, ../scss/_tech.scss */
 .stack .stack-text {
   flex: 55%;
 }
-/* line 24, ../scss/_tech.scss */
+/* line 29, ../scss/_tech.scss */
 .stack .stack-text p {
   font-size: 1.2rem;
 }
-/* line 28, ../scss/_tech.scss */
+/* line 33, ../scss/_tech.scss */
 .stack .stack-content {
   flex: 45%;
   flex-wrap: wrap !important;
