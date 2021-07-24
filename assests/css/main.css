@@ -179,10 +179,10 @@ textarea {
 
 /* line 1, ../scss/_web-app.scss */
 .web-app-showcase {
-  background: url("/assests/images/bg-header1.jpg") no-repeat center center/cover;
+  background: url("../images/bg-header1.jpg") no-repeat center center/cover;
   position: relative;
 }
-/* line 6, ../scss/_web-app.scss */
+/* line 5, ../scss/_web-app.scss */
 .web-app-showcase::before {
   position: absolute;
   top: 0;
@@ -192,25 +192,25 @@ textarea {
   content: "";
   background: linear-gradient(to right, rgba(0, 131, 203, 0.7) 0, rgba(3, 15, 39, 0.3) 100%);
 }
-/* line 19, ../scss/_web-app.scss */
+/* line 18, ../scss/_web-app.scss */
 .web-app-showcase h1,
 .web-app-showcase p {
   z-index: 10;
 }
 
-/* line 25, ../scss/_web-app.scss */
+/* line 24, ../scss/_web-app.scss */
 .quote svg {
   display: block;
   margin: 2rem auto;
 }
 @media screen and (max-width: 768px) {
-  /* line 30, ../scss/_web-app.scss */
+  /* line 29, ../scss/_web-app.scss */
   .quote .d-flex {
     flex-direction: column;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 36, ../scss/_web-app.scss */
+  /* line 35, ../scss/_web-app.scss */
   .quote a {
     display: block;
     width: 75% !important;
