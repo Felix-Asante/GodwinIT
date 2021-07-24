@@ -1,0 +1,32 @@
+.tech-showcase {
+	background: url("/assests/images/inner-banner.jpeg") no-repeat center
+		center/cover;
+
+	h1 {
+		color: $primary-color;
+	}
+}
+// stacks
+.stack {
+	border-bottom: 2px solid #3333;
+	gap: 4rem !important;
+
+	&:last-child {
+		border: none;
+	}
+	.btn {
+		padding: 12px;
+		font-weight: bold;
+		border-radius: 8px;
+	}
+	.stack-text {
+		flex: 55%;
+		p {
+			font-size: 1.2rem;
+		}
+	}
+	.stack-content {
+		flex: 45%;
+		flex-wrap: wrap !important;
+	}
+}
