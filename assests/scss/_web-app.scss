@@ -19,6 +19,11 @@
 	p {
 		z-index: 10;
 	}
+	@media screen and (max-width: 768px) {
+		h1 {
+			font-size: 1.7rem !important;
+		}
+	}
 }
 .quote {
 	svg {
@@ -29,6 +34,10 @@
 	.d-flex {
 		@media screen and (max-width: 768px) {
 			flex-direction: column;
+
+			.start-up {
+				margin-bottom: 2rem;
+			}
 		}
 	}
 	@media screen and (max-width: 768px) {

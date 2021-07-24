@@ -86,6 +86,9 @@ textarea {
 		font-size: 2.3rem !important;
 		text-align: center;
 	}
+	@media screen and (max-width: 768px) {
+		font-size: 1.7rem !important;
+	}
 }
 .inner-showcase__subtitle {
 	font-size: 1.5rem;
@@ -96,5 +99,8 @@ textarea {
 		font-size: 1.2rem !important;
 		line-height: 1.4;
 		width: 100%;
+	}
+	@media screen and (max-width: 768px) {
+		font-size: 1rem !important;
 	}
 }
