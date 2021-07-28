@@ -1,0 +1,22 @@
+.main-service {
+	margin: 7rem 0;
+	.divider {
+		width: 12rem;
+	}
+}
+.mobile-app {
+	.mobile__img {
+		position: relative;
+		flex: 100%;
+		// max-width: 100% !important;
+		img {
+			width: 130% !important;
+			height: 100% !important;
+			position: absolute;
+			top: -1em;
+			left: 0;
+			object-fit: cover;
+			transform: translateX(-80px);
+		}
+	}
+}
