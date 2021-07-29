@@ -26,6 +26,7 @@ body {
 // BG COLOR CLASS
 .bg-primary-color {
 	background: $primary-color;
+	color: white;
 }
 .bg-light-color {
 	background: $light-color;
@@ -108,5 +109,14 @@ textarea {
 	}
 	@media screen and (max-width: 768px) {
 		font-size: 1rem !important;
+	}
+}
+.grid-2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+
+	@media screen and (max-width: 768px) {
+		grid-template-columns: 1fr;
 	}
 }

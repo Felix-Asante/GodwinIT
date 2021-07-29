@@ -56,7 +56,7 @@
 	}
 
 	.offcanvas {
-		height: 40% !important;
+		height: 30% !important;
 		padding: 0.5rem;
 		a {
 			color: $secondary-color !important;
@@ -365,6 +365,33 @@
 		}
 	}
 }
+// CONTACT US
+.send-message {
+	@media screen and(max-width:991px) {
+		gap: 0.5rem !important;
+	}
+	.d-flex {
+		@media screen and(max-width:991px) {
+			gap: 0.5rem !important;
+		}
+		@media screen and(max-width:768px) {
+			gap: 5px !important;
+			flex-direction: column !important;
+		}
+	}
+	input,
+	textarea {
+		background: $light-color;
+		padding: 12px;
+	}
+	button {
+		@media screen and(max-width:768px) {
+			display: block;
+			width: 100%;
+			padding: 0.5rem;
+		}
+	}
+}
 // MAIN FOOTER
 .main-footer {
 	background: url("../images/bespoke.jpg") no-repeat center center/cover;
@@ -402,26 +429,7 @@
 		text-transform: uppercase;
 		font-size: 16px;
 	}
-	.send-message {
-		@media screen and(max-width:991px) {
-			gap: 0.5rem !important;
-		}
-		.d-flex {
-			@media screen and(max-width:991px) {
-				gap: 0.5rem !important;
-			}
-			@media screen and(max-width:768px) {
-				gap: 5px !important;
-			}
-		}
-		button {
-			@media screen and(max-width:768px) {
-				display: block;
-				width: 100%;
-				padding: 0.5rem;
-			}
-		}
-	}
+
 	.copyright {
 		p {
 			vertical-align: middle;
