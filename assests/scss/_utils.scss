@@ -26,6 +26,12 @@ body {
 .mtp-lg {
 	margin-top: 6rem;
 }
+.mtp-xl {
+	margin-top: 8rem;
+}
+.mbt-md {
+	margin-bottom: 6rem;
+}
 // BG COLOR CLASS
 .bg-primary-color {
 	background: $primary-color;
@@ -150,4 +156,16 @@ textarea {
 		);
 		z-index: -1;
 	}
+}
+footer {
+	.site-details {
+		ul {
+			a:hover {
+				color: $primary-color !important;
+			}
+		}
+	}
+}
+.current {
+	color: $primary-color !important;
 }
